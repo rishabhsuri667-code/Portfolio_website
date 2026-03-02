@@ -12,6 +12,14 @@ interface Project {
 
 const projects: Project[] = [
   {
+  title: "E-Commerce Performance Dashboard",
+  description:
+    "Executive-style Power BI dashboard analyzing 3,660 e-commerce transactions. Implemented Month-over-Month revenue growth using DAX and derived insights on category performance, payment methods, and discount impact.",
+  tools: ["Power BI", "DAX", "Data Modeling"],
+  github: "https://github.com/rishabhsuri667-code/ecommerce-performance-dashboard",
+  demo: "/Ecommerce-Performance-Dashboard.pdf",
+  },
+  {
     title: "Sales Performance Dashboard",
     description:
       "Interactive Power BI dashboard tracking regional sales KPIs, revenue trends, and product performance with drill-through filters and dynamic visuals.",
